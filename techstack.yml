@@ -1,0 +1,699 @@
+repo_name: filipeoliveiraa/Auto-GPT
+report_id: 42ba0ef7a818ed39dcbaebdecfdc1139
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:54:27+00:00'
+requested_by: Pwuts
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Eddie Cohen
+  last_updated_on: 2023-04-14 02:36:47.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: BillSchumacher
+  last_updated_on: 2023-04-07 23:13:18.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Nicholas Tindle
+  last_updated_on: 2023-04-22 11:04:39.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+  last_updated_by: Deso
+  last_updated_on: 2023-04-28 21:39:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/.github/workflows/benchmarks.yml
+  detection_source: ".github/workflows/benchmarks.yml"
+  last_updated_by: Reinier van der Leer
+  last_updated_on: 2023-07-12 13:04:24.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Reinier van der Leer
+  last_updated_on: 2023-06-12 00:00:57.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Tindle
+  last_updated_on: 2023-05-26 15:39:25.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Eddie Cohen
+  last_updated_on: 2023-04-14 02:36:47.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: k-boikov
+  last_updated_on: 2023-04-20 12:45:26.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: douglas
+  last_updated_on: 2023-04-04 00:31:01.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT
+  detection_source: Repo Metadata
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sherif-med
+  last_updated_on: 2023-05-21 19:48:40.000000000 Z
+- name: asynctest
+  description: Enhance the standard unittest package with features for testing asyncio
+    libraries
+  package_url: https://pypi.org/project/asynctest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Tindle
+  last_updated_on: 2023-05-26 15:39:25.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: 0xArty
+  last_updated_on: 2023-04-14 19:17:37.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sidewaysthought
+  last_updated_on: 2023-05-01 17:50:50.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: 0xArty
+  last_updated_on: 2023-04-18 12:19:17.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Tindle
+  last_updated_on: 2023-05-26 15:39:25.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: cs0lar
+  last_updated_on: 2023-04-12 17:52:06.000000000 Z
+- name: distro
+  description: Distro - an OS platform information API
+  package_url: https://pypi.org/project/distro
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20579/default_c2fe08b928beca268da55c7fc17121eb06b5e794.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: cs0lar
+  last_updated_on: 2023-04-12 18:54:56.000000000 Z
+- name: ftfy
+  description: Fixes some problems with Unicode text after the fact
+  package_url: https://pypi.org/project/ftfy
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20650/default_422cfa802834b2f78f74508cdc2c26b9544a79eb.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: ido777
+  last_updated_on: 2023-07-14 22:23:59.000000000 Z
+- name: gTTS
+  description: GTTS
+  package_url: https://pypi.org/project/gTTS
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Master Blood
+  last_updated_on: 2023-04-04 05:38:01.000000000 Z
+- name: inflection
+  description: A port of Ruby on Rails inflector to Python
+  package_url: https://pypi.org/project/inflection
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19983/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: James Collins
+  last_updated_on: 2023-07-08 02:51:01.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-04-14 22:33:28.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: zyt600
+  last_updated_on: 2023-04-30 21:24:07.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luke
+  last_updated_on: 2023-08-01 17:17:33.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-05-16 02:44:36.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-07-22 21:58:46.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: 0xArty
+  last_updated_on: 2023-04-14 18:43:34.000000000 Z
+- name: prompt_toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt_toolkit
+  version: 3.0.38
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19973/default_7bdb5665dee17d53e3a12b8e2b533bcdb6f55a47.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Erik Peterson
+  last_updated_on: 2023-06-11 21:19:42.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-06-24 04:15:20.000000000 Z
+- name: pylatexenc
+  description: Simple LaTeX parser providing latex-to-unicode and unicode-to-latex
+    conversion
+  package_url: https://pypi.org/project/pylatexenc
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: k-boikov
+  last_updated_on: 2023-05-26 12:48:36.000000000 Z
+- name: pymdown-extensions
+  description: Extension pack for Python Markdown
+  package_url: https://pypi.org/project/pymdown-extensions
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Tindle
+  last_updated_on: 2023-05-26 15:39:25.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: pytest-benchmark
+  description: A ``pytest`` fixture for benchmarking code
+  package_url: https://pypi.org/project/pytest-benchmark
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-07-22 21:58:46.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: pytest-xdist
+  description: Pytest xdist plugin for distributed testing and loop-on-failing modes
+  package_url: https://pypi.org/project/pytest-xdist
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20307/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eduardo Salinas
+  last_updated_on: 2023-05-12 21:57:30.000000000 Z
+- name: python-docx
+  description: Create and update Microsoft Word .docx files
+  package_url: https://pypi.org/project/python-docx
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-07-22 21:58:46.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: '0.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-07-22 21:58:46.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Toran Bruce Richards
+  last_updated_on: 2023-04-03 10:23:54.000000000 Z
+- name: selenium
+  description: Python bindings for Selenium
+  package_url: https://pypi.org/project/selenium
+  version: 4.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19869/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lee
+  last_updated_on: 2023-04-22 13:00:23.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Reinier van der Leer
+  last_updated_on: 2023-04-20 21:53:06.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: James Collins
+  last_updated_on: 2023-07-05 19:12:05.000000000 Z
+- name: webdriver-manager
+  description: Library provides the way to automatically manage drivers for different
+    browsers
+  package_url: https://pypi.org/project/webdriver-manager
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: merwanehamadi
+  last_updated_on: 2023-04-14 22:33:28.000000000 Z
